@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #003366, #ff6600);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+}
+
+.brand-name {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: #003366;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #ccc;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 5px 10px;
+    background: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-footer {
+    width: 30px;
+}
